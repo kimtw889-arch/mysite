@@ -5,24 +5,8 @@ body {
     font-family: Arial;
 }
 
-nav {
-    margin-bottom: 20px;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav a:hover {
-    color: orange;
-}
-
-img {
-    margin: 10px;
-  
+h1 {
+    color: gold;
 }
 
 video {
@@ -43,21 +27,32 @@ button {
     display: block;
     margin: 20px auto;
 }
-a {
-    display: inline-block;
+
+/* 갤러리 */
+.gallery {
+    text-align: center;
 }
 
-a img {
+.gallery a img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
     margin: 10px;
-    .gallery {
-    text-align: center;
 }
-    
+
+/* 메뉴 */
+nav {
+    margin-top: 30px;
 }
-h1 {
-    color: gold;
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: orange;
 }
