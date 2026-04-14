@@ -30,3 +30,26 @@ div {
   flex-wrap: wrap;
   justify-content: center;
 }
+body {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    font-family: Arial;
+}
+
+img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: gold;
+}
