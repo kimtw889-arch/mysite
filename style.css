@@ -53,6 +53,10 @@ a img {
     object-fit: cover;
     border-radius: 50%;
     margin: 10px;
+    .gallery {
+    text-align: center;
+}
+    
 }
 h1 {
     color: gold;
