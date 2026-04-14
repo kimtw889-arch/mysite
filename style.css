@@ -53,3 +53,16 @@ button {
 h1 {
     color: gold;
 }
+body {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    font-family: Arial;
+}
+video {
+    border-radius: 10px;
+    margin: 10px;
+}
+img:hover {
+    transform: scale(1.05);
+}
