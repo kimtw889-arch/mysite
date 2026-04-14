@@ -1,58 +1,37 @@
-body {
-    text-align: center;
-    background-color: #111;
-    color: white;
-    font-family: Arial;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>내 홈페이지</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-h1 {
-    color: gold;
-}
+<body>
 
-video {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
-    margin: 20px auto;
-}
+<h1>내 홈페이지</h1>
+<p>안녕하세요 👋</p>
+<p>HRI</p>
 
-button {
-    background-color: orange;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    display: block;
-    margin: 20px auto;
-}
+<video controls>
+    <source src="my1.mp4" type="video/mp4">
+</video>
 
-/* 갤러리 */
-.gallery {
-    text-align: center;
-}
+<a href="mailto:your@email.com">
+    <button>이메일 보내기</button>
+</a>
 
-.gallery a img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 10px;
-}
+<!-- 갤러리 -->
+<div class="gallery">
+    <a href="my1.jpg"><img src="my1.jpg"></a>
+    <a href="my2.jpg"><img src="my2.jpg"></a>
+    <a href="my3.jpg"><img src="my3.jpg"></a>
+    <a href="my4.jpg"><img src="my4.jpg"></a>
+</div>
 
-/* 메뉴 */
-nav {
-    margin-top: 30px;
-}
+<!-- 메뉴 -->
+<nav>
+    <a href="index.html">홈</a>
+    <a href="about.html">소개</a>
+</nav>
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav a:hover {
-    color: orange;
-}
+</body>
+</html>
