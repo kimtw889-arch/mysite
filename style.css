@@ -1,71 +1,4 @@
-body {
-  background-color: #111;
-  color: white;
-  text-align: center;
-  font-family: Arial;
-}
-
-img {
-  border-radius: 50%;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: orange;
-  border: none;
-  color: white;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: red;
-}
-img {
   margin: 10px;
-  border-radius: 10px;
-}
-div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-body {
-    text-align: center;
-    background-color: #111;
-    color: white;
-    font-family: Arial;
-}
-
-img {
-    margin: 10px;
-    border-radius: 10px;
-}
-
-button {
-    background-color: orange;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-}
-
-h1 {
-    color: gold;
-}
-body {
-    text-align: center;
-    background-color: #111;
-    color: white;
-    font-family: Arial;
-}
-video {
-    border-radius: 10px;
-    margin: 10px;
-}
-img:hover {
-    transform: scale(1.05);
-    margin: 10px;
     border-radius: 50%;
 }
 [SINGO(新悟)] [오후 12:19] body {
@@ -84,6 +17,4 @@ img, video {
     border-radius: 10px;
     margin: 20px auto;
     display: block;
-}
-
 }
