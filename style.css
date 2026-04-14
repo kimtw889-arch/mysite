@@ -43,6 +43,17 @@ button {
     display: block;
     margin: 20px auto;
 }
+a img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+a {
+    display: inline-block;
+}
 
 h1 {
     color: gold;
