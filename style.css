@@ -65,4 +65,25 @@ video {
 }
 img:hover {
     transform: scale(1.05);
+    margin: 10px;
+    border-radius: 50%;
+}
+[SINGO(新悟)] [오후 12:19] body {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    font-family: Arial;
+}
+
+img, video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+[SINGO(新悟)] [오후 12:19] video {
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
 }
